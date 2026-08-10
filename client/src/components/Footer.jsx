@@ -85,7 +85,7 @@ function Footer() {
 
         {/* Copyright */}
         <p className="mt-4 text-center text-xs text-gray-500 dark:text-gray-500">
-          &copy; {new Date().getFullYear()} Designed with ❤️ by Steve Bicko. All rights reserved.
+          &copy; {new Date().getFullYear()} ❤️ Слава Богу. All rights reserved.
         </p>
       </div>
     </footer>

@@ -39,7 +39,6 @@ const imageVariant = {
   visible: { opacity: 1, scale: 1, transition: { duration: 1 } },
 };
 
-
 function DynamicText({
   words = [],
   className = "inline-block",
@@ -101,25 +100,25 @@ export default function HomePage() {
           <div className="max-w-3xl">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-emerald-400/20 bg-emerald-500/10 px-4 py-2 text-sm text-emerald-200">
               <Sparkles size={15} />
-              Software Engineer • AI Developer • Systems Builder
+              ML Enthusiast • AI/NLP Enthusiast • PyReact
             </div>
             <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-6xl lg:text-7xl">
               Building{" "}
               <DynamicText
                 words={[
+                  "AI-Powered",
                   "Intelligent",
-                  "Reliable",
-                  "Scalable",
-                  "Secure",
-                  "Impactful",
+                  "Practical",
+                  "Innovative",
+                  "Meaningful",
                 ]}
                 className="text-emerald-300 font-extrabold"
               />{" "}
-              Software That Solves Real Problems.
+              Solutions for Real-World Problems.
             </h1>
             <p className="mt-6 max-w-2xl text-lg text-zinc-400 sm:text-xl">
               <DecryptText
-                text="I’m Steve Okumu, a software engineer passionate about artificial intelligence, backend engineering, machine learning, and secure software systems."
+                text="Name's Steve Bicko, a junior developer passionate about AI/ML, NLP, and secure systems. I’m constantly learning, building, and exploring how technology can solve real-world problems."
                 duration={2500}
               />
             </p>
