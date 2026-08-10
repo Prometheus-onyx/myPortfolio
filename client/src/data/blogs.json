@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Designing trustworthy AI systems",
+    "slug": "designing-trustworthy-ai-systems",
+    "excerpt": "A practical guide to building AI products that earn confidence through safety, observability, and clear product loops.",
+    "category": "Artificial Intelligence",
+    "readTime": "6 min read",
+    "date": "July 2026",
+    "content": [
+      "Trustworthiness is not only a model quality problem; it is a product design problem.",
+      "In practice, the strongest systems pin down human expectations, transparent reasoning, measurable guardrails, and an operational feedback loop.",
+      "That is what turns a promising prototype into a dependable product."
+    ]
+  },
+  {
+    "title": "The modern backend stack for AI products",
+    "slug": "modern-backend-stack-ai-products",
+    "excerpt": "What a resilient, low-latency platform usually needs when AI moves from notebook to production.",
+    "category": "Backend",
+    "readTime": "5 min read",
+    "date": "June 2026",
+    "content": [
+      "An AI product needs more than a great model. It needs a dependable orchestration layer, clear data contracts, and strong observability.",
+      "A modern stack usually combines a fast API layer, event-driven workers, vector search, and comprehensive tracing so the system remains legible under pressure."
+    ]
+  },
+  {
+    "title": "Building with clarity in a noisy world",
+    "slug": "building-with-clarity-in-a-noisy-world",
+    "excerpt": "How I think about simplifying complex engineering choices while keeping products ambitious.",
+    "category": "Career",
+    "readTime": "4 min read",
+    "date": "May 2026",
+    "content": [
+      "The most durable engineering work is usually not the most dramatic. It is the most intentional.",
+      "Clarity, pacing, and strong communication often matter more than novelty when teams need to move confidently."
+    ]
+  }
+]
