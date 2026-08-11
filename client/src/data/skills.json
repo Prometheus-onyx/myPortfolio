@@ -2,41 +2,138 @@
   {
     "category": "Frontend",
     "items": [
-      {"name": "React", "level": 95, "years": "6 yrs", "projects": 18, "icon": "LayoutGrid"},
-      {"name": "Tailwind CSS", "level": 92, "years": "4 yrs", "projects": 14, "icon": "Palette"},
-      {"name": "Framer Motion", "level": 88, "years": "3 yrs", "projects": 10, "icon": "Sparkles"}
+      {
+        "name": "React",
+        "level": 78,
+        "years": "2 yrs",
+        "projects": 8,
+        "icon": "SiReact"
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": 80,
+        "years": "2 yrs",
+        "projects": 7,
+        "icon": "SiTailwindcss"
+      },
+      {
+        "name": "Framer Motion",
+        "level": 65,
+        "years": "1 yr",
+        "projects": 4,
+        "icon": "SiFramer"
+      }
     ]
   },
   {
     "category": "Backend",
     "items": [
-      {"name": "FastAPI", "level": 93, "years": "5 yrs", "projects": 12, "icon": "ServerCog"},
-      {"name": "Django", "level": 90, "years": "5 yrs", "projects": 11, "icon": "ShieldCheck"},
-      {"name": "Node.js", "level": 89, "years": "6 yrs", "projects": 13, "icon": "Cpu"}
+      {
+        "name": "FastAPI",
+        "level": 70,
+        "years": "1 yr",
+        "projects": 4,
+        "icon": "SiFastapi"
+      },
+      {
+        "name": "Django",
+        "level": 75,
+        "years": "2 yrs",
+        "projects": 6,
+        "icon": "SiDjango"
+      },
+      {
+        "name": "Node.js",
+        "level": 60,
+        "years": "1 yr",
+        "projects": 3,
+        "icon": "SiNodedotjs"
+      }
     ]
   },
   {
     "category": "AI/ML",
     "items": [
-      {"name": "PyTorch", "level": 91, "years": "4 yrs", "projects": 9, "icon": "BrainCircuit"},
-      {"name": "TensorFlow", "level": 85, "years": "3 yrs", "projects": 7, "icon": "Beaker"},
-      {"name": "LLM Systems", "level": 94, "years": "3 yrs", "projects": 8, "icon": "Bot"}
+      {
+        "name": "PyTorch",
+        "level": 60,
+        "years": "1 yr",
+        "projects": 3,
+        "icon": "SiPytorch"
+      },
+      {
+        "name": "TensorFlow",
+        "level": 55,
+        "years": "1 yr",
+        "projects": 2,
+        "icon": "SiTensorflow"
+      },
+      {
+        "name": "NLP",
+        "level": 60,
+        "years": "1 yr",
+        "projects": 3,
+        "icon": "SiSpacy"
+      },
+      {
+        "name": "LLM Systems",
+        "level": 55,
+        "years": "1 yr",
+        "projects": 2,
+        "icon": "SiOpenai"
+      }
     ]
   },
   {
     "category": "Databases",
     "items": [
-      {"name": "PostgreSQL", "level": 88, "years": "6 yrs", "projects": 14, "icon": "Database"},
-      {"name": "Redis", "level": 83, "years": "4 yrs", "projects": 8, "icon": "Gauge"},
-      {"name": "MongoDB", "level": 79, "years": "3 yrs", "projects": 6, "icon": "Files"}
+      {
+        "name": "PostgreSQL",
+        "level": 65,
+        "years": "1 yr",
+        "projects": 4,
+        "icon": "SiPostgresql"
+      },
+      {
+        "name": "MySQL",
+        "level": 55,
+        "years": "1 yr",
+        "projects": 2,
+        "icon": "SiMysql"
+      },
+      {
+        "name": "SQLite",
+        "level": 70,
+        "years": "2 yrs",
+        "projects": 5,
+        "icon": "SiSqlite"
+      }
     ]
   },
   {
     "category": "DevOps",
     "items": [
-      {"name": "Docker", "level": 90, "years": "5 yrs", "projects": 10, "icon": "Boxes"},
-      {"name": "CI/CD", "level": 87, "years": "4 yrs", "projects": 9, "icon": "Workflow"},
-      {"name": "Cloud", "level": 84, "years": "4 yrs", "projects": 8, "icon": "Cloud"}
+      {
+        "name": "Docker",
+        "level": 55,
+        "years": "1 yr",
+        "projects": 2,
+        "icon": "SiDocker"
+      },
+      {
+        "name": "CI/CD",
+        "level": 45,
+        "years": "1 yr",
+        "projects": 2,
+        "icon": "SiGithubactions"
+      },
+      {
+        "name": "Cloud",
+        "level": 55,
+        "years": "1 yr",
+        "projects": 3,
+        "icon": "SiGooglecloud"
+      }
     ]
   }
 ]

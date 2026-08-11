@@ -229,9 +229,9 @@ export default function HomePage() {
         title="Built with modern tools and thoughtful engineering."
         description="The stack is selected to ship quickly, scale responsibly, and feel premium on every screen."
       >
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-none">
+        <section className="w-full overflow-hidde">
           <Logomarquee />
-        </div>
+        </section>
       </PageSection>
 
       <PageSection

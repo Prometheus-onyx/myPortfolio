@@ -1,29 +1,41 @@
 [
   {
     "type": "Experience",
-    "role": "Software Engineer & AI Developer",
-    "company": "Independent Studio",
-    "period": "2022 — Present",
-    "location": "Remote • Nairobi / Global",
-    "summary": "Designing modern software systems and AI-driven products that balance reliability, speed, and user trust.",
-    "highlights": ["Built multi-service products for health, agriculture, and analytics", "Led product engineering from concept to deployment", "Mentored early-career developers and contributors"]
+    "role": "Junior Developer",
+    "company": "Independent Projects",
+    "period": "2025 — Present",
+    "location": "Remote • Kenya",
+    "summary": "Building and experimenting with modern web applications, backend systems, and AI-powered solutions while continuously developing my software engineering skills.",
+    "highlights": [
+      "Built full-stack applications using React, Django, FastAPI, and modern web technologies",
+      "Explored AI/ML and NLP through practical projects and experimentation",
+      "Worked with APIs, databases, authentication, and deployment workflows"
+    ]
   },
   {
-    "type": "Research",
-    "role": "AI Research Assistant",
-    "company": "Open Innovation Lab",
-    "period": "2020 — 2022",
-    "location": "Hybrid",
-    "summary": "Explored applied machine learning, experimentation workflows, and evaluation practices for high-stakes domains.",
-    "highlights": ["Developed experimental pipelines for image classification", "Published technical notes and reproducible benchmarks", "Collaborated with domain experts on validation workflows"]
+    "type": "Experience",
+    "role": "AI/ML Projects",
+    "company": "Independent Learning & Projects",
+    "period": "2025 — Present",
+    "location": "Remote • Kenya",
+    "summary": "Exploring artificial intelligence, machine learning, and natural language processing through hands-on projects and continuous learning.",
+    "highlights": [
+      "Built and experimented with machine learning models for practical problems",
+      "Explored NLP, AI-powered applications, and retrieval-augmented generation",
+      "Experimented with local and open-source AI models and APIs"
+    ]
   },
   {
     "type": "Education",
-    "role": "BSc. Computer Science",
-    "company": "University of Nairobi",
-    "period": "2018 — 2022",
-    "location": "Nairobi, Kenya",
-    "summary": "Focused on software engineering, algorithms, data science, and intelligent systems.",
-    "highlights": ["Capstone on applied AI for healthcare diagnostics", "Competitive programming and systems coursework", "Leadership in student tech communities"]
+    "role": "BSc. Information Systems",
+    "company": "University",
+    "period": "2024 — Present",
+    "location": "Kenya",
+    "summary": "Currently pursuing a BSc. in Information Systems while exploring artificial intelligence, machine learning, NLP, cybersecurity, and software development.",
+    "highlights": [
+      "Currently in my 3rd year of study",
+      "Developing practical skills through software and AI/ML projects",
+      "Exploring secure and responsible approaches to intelligent systems"
+    ]
   }
 ]

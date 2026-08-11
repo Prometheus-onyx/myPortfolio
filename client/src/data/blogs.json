@@ -1,39 +1,41 @@
 [
   {
-    "title": "Designing trustworthy AI systems",
-    "slug": "designing-trustworthy-ai-systems",
-    "excerpt": "A practical guide to building AI products that earn confidence through safety, observability, and clear product loops.",
+    "title": "What I'm Learning About Building Trustworthy AI",
+    "slug": "what-im-learning-about-building-trustworthy-ai",
+    "excerpt": "Exploring why responsible AI requires more than a good model and how developers can think about reliability, transparency, and user trust.",
     "category": "Artificial Intelligence",
-    "readTime": "6 min read",
+    "readTime": "5 min read",
     "date": "July 2026",
     "content": [
-      "Trustworthiness is not only a model quality problem; it is a product design problem.",
-      "In practice, the strongest systems pin down human expectations, transparent reasoning, measurable guardrails, and an operational feedback loop.",
-      "That is what turns a promising prototype into a dependable product."
+      "Building AI systems is not only about getting a model to produce accurate results. It is also about understanding how people interact with the system and where things can go wrong.",
+      "As I continue learning about AI and machine learning, I am exploring ideas around transparency, reliability, responsible development, and meaningful human oversight.",
+      "These principles are becoming increasingly important as AI moves from experiments and prototypes into applications that people rely on."
     ]
   },
   {
-    "title": "The modern backend stack for AI products",
-    "slug": "modern-backend-stack-ai-products",
-    "excerpt": "What a resilient, low-latency platform usually needs when AI moves from notebook to production.",
+    "title": "Exploring the Backend Stack for AI Applications",
+    "slug": "exploring-backend-stack-ai-applications",
+    "excerpt": "What I'm learning about connecting AI models with APIs, databases, and modern backend technologies.",
     "category": "Backend",
     "readTime": "5 min read",
     "date": "June 2026",
     "content": [
-      "An AI product needs more than a great model. It needs a dependable orchestration layer, clear data contracts, and strong observability.",
-      "A modern stack usually combines a fast API layer, event-driven workers, vector search, and comprehensive tracing so the system remains legible under pressure."
+      "An AI application needs more than a machine learning model. It also needs a backend capable of connecting the model to users, data, and other parts of the application.",
+      "Through my projects, I have been exploring technologies such as Django, FastAPI, databases, APIs, and different approaches to integrating AI into web applications.",
+      "The more I build, the more I understand how important good architecture, clear data flow, authentication, and reliable APIs are to making an application work beyond the model itself."
     ]
   },
   {
-    "title": "Building with clarity in a noisy world",
-    "slug": "building-with-clarity-in-a-noisy-world",
-    "excerpt": "How I think about simplifying complex engineering choices while keeping products ambitious.",
-    "category": "Career",
+    "title": "Learning in Public: Building Through Curiosity",
+    "slug": "learning-in-public-building-through-curiosity",
+    "excerpt": "A reflection on learning software development, AI, and NLP by building projects and learning from the process.",
+    "category": "Learning",
     "readTime": "4 min read",
     "date": "May 2026",
     "content": [
-      "The most durable engineering work is usually not the most dramatic. It is the most intentional.",
-      "Clarity, pacing, and strong communication often matter more than novelty when teams need to move confidently."
+      "Learning technology is rarely a straight line. Some concepts make sense immediately, while others require building, breaking things, and trying again.",
+      "As a student and junior developer, I have found that building projects is one of the most effective ways for me to turn concepts into practical understanding.",
+      "My current journey spans software development, artificial intelligence, machine learning, NLP, and security, and I am continuing to learn by experimenting and creating."
     ]
   }
 ]

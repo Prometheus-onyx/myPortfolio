@@ -35,7 +35,7 @@ export default function AILabPage() {
         </div>
       </PageSection>
 
-      <PageSection eyebrow="Currently Building" title="Focused on the next generation of applied AI systems." description="The current work emphasizes responsible deployment, trustworthy experiences, and deeper product integration.">
+      <PageSection eyebrow="Currently Building" title="A lab for experiments that move from idea to usable product." description="The current work emphasizes responsible deployment, trustworthy experiences, and deeper product integration.">
         <div className="rounded-[2rem] border border-white/10 bg-gradient-to-br from-emerald-500/15 to-cyan-500/10 p-8">
           <div className="grid gap-6 md:grid-cols-2">
             <div>
