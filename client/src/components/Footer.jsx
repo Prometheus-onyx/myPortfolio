@@ -2,6 +2,7 @@
 
 import React from "react";
 import { FaLinkedin, FaXTwitter, FaGithub } from "react-icons/fa6";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   const navLinks = [
@@ -52,12 +53,13 @@ function Footer() {
           <ul className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-base font-medium">
             {navLinks.map((link) => (
               <li key={link.name}>
-                <a
-                  href={link.href}
+                <NavLink
+                  key={link.name}
+                  to={link.href}
                   className="relative text-gray-600 transition-all duration-300 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-gray-900 after:transition-all after:duration-300 hover:after:w-full dark:after:bg-white"
                 >
                   {link.name}
-                </a>
+                </NavLink>
               </li>
             ))}
           </ul>
