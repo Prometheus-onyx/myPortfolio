@@ -73,14 +73,14 @@
         "level": 60,
         "years": "1 yr",
         "projects": 3,
-        "icon": "SiSpacy"
+        "icon": "SiOllama"
       },
       {
         "name": "LLM Systems",
         "level": 55,
         "years": "1 yr",
         "projects": 2,
-        "icon": "SiOpenai"
+        "icon": "SiOpenaigym"
       }
     ]
   },

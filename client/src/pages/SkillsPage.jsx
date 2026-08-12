@@ -15,19 +15,20 @@ import {
   SiFastapi,
   SiDjango,
   SiNodedotjs,
-  SiPython,
   SiTensorflow,
   SiPytorch,
   SiDocker,
   SiPostgresql,
   SiTailwindcss,
   SiFlask,
-  SiJavascript,
   SiMysql,
   SiSqlite,
   SiFramer,
   SiGithubactions,
   SiGooglecloud,
+  SiLanggraph,
+  SiOpenaigym,
+  SiOllama,
 } from "react-icons/si";
 import skillsData from "../data/skills.json";
 import PageSection from "../components/PageSection";
@@ -42,12 +43,15 @@ const iconMap = {
   SiDocker: "SiDocker",
   SiPostgresql: "SiPostgresql",
   SiFlask: "SiFlask",
-  SiJavascript: "SiJavascript",
   SiMysql: "SiMysql",
   SiSqlite: "SiSqlite",
   SiFramer: "SiFramer",
   SiGithubactions: "SiGithubactions",
   SiGooglecloud: "SiGooglecloud",
+  SiNodedotjs: "SiNodedotjs",
+  SiOpenaigym: "SiOpenaigym",
+  SiLanggraph: "SiLanggraph",
+  SiOllama: "SiOllama",
 };
 
 const categoryIconMap = {
@@ -119,6 +123,12 @@ export default function SkillsPage() {
                               <SiGooglecloud size={16} />
                             ) : skill.icon === "SiSqlite" ? (
                               <SiSqlite size={16} />
+                            ) : skill.icon === "SiNodedotjs" ? (
+                              <SiNodedotjs size={16} />
+                            ) :skill.icon === "SiOpenaigym" ? (
+                              <SiOpenaigym size={16} />
+                            ) :skill.icon === "SiOllama" ? (
+                              <SiOllama size={16} />
                             ) : (
                               <Cpu size={16} />
                             )}
