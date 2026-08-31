@@ -4,6 +4,7 @@ import { ArrowUpRight, GitBranch, Globe2, Mail, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { FaLinkedin, FaXTwitter, FaGithub } from "react-icons/fa6";
 import Footer from "./Footer";
+import cvFile from "../cv/Steve Bicko CV.pdf";
 
 const navItems = [
   { label: "Home", to: "/" },
@@ -61,7 +62,9 @@ export default function Layout({ children }) {
               </NavLink>
             ))}
             <a
-              href="/Steve-Okumu-Resume.pdf"
+              href={cvFile}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-emerald-400/30 bg-emerald-500/10 px-4 py-2 text-sm text-emerald-200 transition hover:bg-emerald-500/20"
             >
               Resume <ArrowUpRight size={16} />

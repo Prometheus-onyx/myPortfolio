@@ -8,6 +8,7 @@ import {
   BookOpenText,
 } from "lucide-react";
 import PageSection from "../components/PageSection";
+import cvFile from "../cv/Steve Bicko CV.pdf";
 
 const timeline = [
   {
@@ -107,10 +108,14 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <button className="mt-8 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-5 py-3 text-sm font-medium text-white transition hover:border-emerald-400/40 hover:bg-emerald-500/10">
+            <a
+              href={cvFile}
+              download="Steve Bicko CV.pdf"
+              className="mt-8 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-5 py-3 text-sm font-medium text-white transition hover:border-emerald-400/40 hover:bg-emerald-500/10"
+            >
               <Download size={17} />
               Download Resume
-            </button>
+            </a>
           </div>
         </div>
       </div>
