@@ -14,6 +14,7 @@ import projectsData from "../data/projects.json";
 import PageSection from "../components/PageSection";
 import Logomarquee from "../components/LogoMarque";
 import DecryptText from "../components/DecryptText";
+//import TestimonialsPage from "../pages/TestimonialsPage";
 
 const featuredTech = [
   "React",
@@ -284,7 +285,7 @@ export default function HomePage() {
                       href={project.demo}
                       target="_blank"
                       rel="noreferrer"
-                      className="inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-2 text-sm text-zinc-300 hover:text-white"
+                      className="inline-flex items-center gap-2 rounded-full border border-emerald-400/20 bg-emerald-500/10 px-3 py-2 text-sm text-emerald-200"
                     >
                       Live Demo
                     </a>
@@ -294,7 +295,7 @@ export default function HomePage() {
                       href={project.github}
                       target="_blank"
                       rel="noreferrer"
-                      className="inline-flex items-center gap-2 rounded-full border border-emerald-400/20 bg-emerald-500/10 px-3 py-2 text-sm text-emerald-200"
+                      className="inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-2 text-sm text-zinc-300 hover:text-white"
                     >
                       <GitBranch size={16} /> GitHub
                     </a>
@@ -311,46 +312,7 @@ export default function HomePage() {
           ))}
         </div>
       </PageSection>
-
-      <PageSection
-        eyebrow="Testimonials"
-        title="Trusted by founders, teams, and collaborators."
-        description="The work is shaped to make complex ideas feel clear, usable, and valuable."
-      >
-        <div className="grid gap-6 lg:grid-cols-3">
-          {[
-            {
-              quote:
-                "Steve combines product clarity and technical rigor in a way that feels rare.",
-              name: "Amina Njenga",
-              role: "Product Lead",
-            },
-            {
-              quote:
-                "A calm, thoughtful engineer who builds AI systems people actually want to use.",
-              name: "Daniel Mwangi",
-              role: "Founder",
-            },
-            {
-              quote:
-                "From architecture to delivery, every detail feels premium and deliberate.",
-              name: "Lina Patel",
-              role: "CTO",
-            },
-          ].map((item) => (
-            <div
-              key={item.name}
-              className="rounded-[1.5rem] border border-white/10 bg-white/5 p-6"
-            >
-              <p className="text-lg leading-8 text-zinc-300">“{item.quote}”</p>
-              <div className="mt-6">
-                <p className="font-semibold text-white">{item.name}</p>
-                <p className="text-sm text-zinc-400">{item.role}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </PageSection>
+     {/* <TestimonialsPage /> */}
     </div>
   );
 }

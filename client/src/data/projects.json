@@ -14,10 +14,10 @@
     "problem": "I needed a simple note taking app with privacy and security features.",
     "solution": "I built a note taking app with a focus on privacy and security.",
     "architecture": "A Django backend stores user data and encrypts notes with JWT encryption.",
-    "technologies": ["React", "FastAPI", "PyTorch", "Docker", "PostgreSQL"],
+    "technologies": ["React", "Tailwind CSS", "Python", "Django", "PostgreSQL"],
     "challenges": ["Data privacy", "Security", "Scalability"],
     "lessons": ["Data privacy", "Security", "Scalability"],
-    "gallery": ["/placeholder-project-1.svg", "/placeholder-project-2.svg", "/placeholder-project-3.svg"],
+    "gallery": ["/placeholder-project-1.sv", "/placeholder-project-2.svg", "/placeholder-project-3.svg"],
     "lab": true
   },
   {
@@ -36,7 +36,7 @@
     "technologies": ["React", "Tailwind CSS", "JavaScript", "HTML"],
     "challenges": ["Low-quality field imagery", "Multi-region deployment", "Sparse labels"],
     "lessons": ["Domain knowledge improves model reliability", "Operations feedback is essential"],
-    "gallery": ["/placeholder-project-2.svg", "/placeholder-project-1.svg", "/placeholder-project-3.svg"],
+    "gallery": ["khttps://images.unsplash.com/photo-1692369584496-3216a88f94c1?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "dhttps://images.unsplash.com/photo-1787894565548-0df8b29874bb?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "yhttps://images.unsplash.com/photo-1787894565548-0df8b29874bb?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
     "lab": true
   }
 ]

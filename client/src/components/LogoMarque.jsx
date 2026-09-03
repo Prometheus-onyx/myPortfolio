@@ -116,7 +116,7 @@ function Logomarquee() {
   }, []);
   const Marquee = ({ logos, direction = "forwards" }) => {
     const numItems = logos.length;
-    const speed = "25s";
+    const speed = "15s";
     const itemWidth = "120px";
     const itemGap = "25px";
     return (

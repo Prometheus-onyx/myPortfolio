@@ -80,7 +80,14 @@ export default function ProjectDetailPage() {
       <section className="mx-auto mt-10 max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-4 sm:grid-cols-3">
           {project.gallery.map((image, index) => (
-            <div key={image + index} className="h-40 rounded-[1.5rem] border border-white/10 bg-gradient-to-br from-emerald-500/20 to-cyan-500/15" />
+            <div 
+            key={image + index} 
+            className="h-40 rounded-[1.5rem] border border-white/10 bg-gradient-to-br from-emerald-500/20 to-cyan-500/15" >
+              <img 
+              src={image} 
+              alt={`Gallery ${index + 1}`} 
+              className="h-full w-full rounded-[1.5rem] object-cover" />
+            </div>
           ))}
         </div>
       </section>
